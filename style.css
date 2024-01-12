@@ -1,0 +1,173 @@
+body{
+    position: absolute;
+}
+#Autorisation{
+    background-color:rgb(201, 201, 216);
+    color: midnightblue;
+    margin: 10px;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 2fr 7fr 1fr;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+#Autorisation div{
+    align-items: center;
+    margin: 10px;
+    padding-left: 5px;
+    border-left: 2px solid white;;
+}
+.main{
+   
+    margin: 10px;
+    padding: 5px;
+    border: 1px orangered solid;
+    border-radius: 5px;
+    position: relative;
+    align-content: center;
+}
+.local{
+    float: right;
+}
+.page{
+    border-left: 1px orangered solid;
+    margin: 10px;
+    padding-left: 5px;
+    position: relative;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    align-content: center;
+    justify-items: center;
+}
+nav {
+    border: 2px rgb(147, 147, 180) solide;
+    border-radius: 5px;
+    align-items: center;
+    position: relative;
+
+}
+a{
+    background-color: white(147, 147, 180);
+    color: orangered;
+    text-decoration: none;
+    font-size: large;
+    display: block;
+    width: 100%;
+    margin: 10px;
+    padding: 5px;
+}
+a:hover{
+    color: midnightblue;
+    text-decoration: underline;
+}
+.identification{
+    padding-left: 5px;
+    align-self: self-end;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    
+
+}
+.Raison{
+        padding-left: 5px;
+        align-self: self-end;
+        position: relative;
+        display: grid;
+        grid-template-rows: 1fr;
+        align-content: center;
+}
+h3{
+    color: orangered;
+    border-bottom: 1px solid;
+    align-self: center;
+}
+div{
+    margin: 5px;
+}
+label{
+    color: midnightblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    font-weight: bold;
+}
+.envoie{
+    color: black;
+    font-size: medium;
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+}
+input{
+    background-color: rgb(201, 201, 216);
+    border: 5px midnightblue;
+    border-radius: 5px;
+}
+input:required {
+    border: 1px solid orangered;
+}
+button{
+    color: midnightblue;
+    background-color: rgb(201, 201, 216);
+    width: 100px;
+    border: 2px solid midnightblue;
+    border-radius: 5px;
+}
+button:hover{
+    color:  rgb(201, 201, 216);
+    background-color: midnightblue;
+}
+input:hover{
+    color:  rgb(201, 201, 216);
+    background-color: midnightblue;
+    border: 2px solid rgb(201, 201, 216);
+    border-radius: 5px;
+}
+input:focus{
+    color:  rgb(201, 201, 216);
+    background-color: rgb(106, 106, 155);
+    border: 2px solid rgb(201, 201, 216);
+    border-radius: 5px;
+}
+footer{
+    background-color:rgb(201, 201, 216);
+    color: midnightblue;
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+footer a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+.Description{
+    width: 500px;
+    height: 100px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+    .main{
+        display: block;
+    }
+    #Autorisation{
+        grid-template-columns: 8fr 1fr;
+    }
+    footer{
+        display:none;
+    }
+    img{
+        display: none;
+    }
+    .identification{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}

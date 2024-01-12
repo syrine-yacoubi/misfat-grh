@@ -1,0 +1,54 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autorisation d'Absence</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<h3>Object</h3>
+        <form class="Raison">
+            <div>
+                <label id="nom">Nom</label>
+                <input type="text">
+            </div>
+            <div>
+                <label>Prénom</label>
+                <input type="text">
+            </div>
+            
+            <div>
+                <label>Raison d'absence</label>
+                <input type="checkbox" value="Malade">
+                <label class="envoie">Je suis Malade</label>
+            </div>
+            <div>
+                <label>Date de debut</label>
+                <input type="date" required>
+            </div>
+            <div>
+                <label>Date de fin</label>
+                <input type="date" required>
+            </div>
+        
+            <div>
+                <label>Description</label>
+                <input type="text" class="Description">
+            </div>
+        </form>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+<script>
+$('.Raison').validate();
+</script>
+        <button type="submit">Envoyer</button>
+    </section>
+        </div>
+    </section>
+    <footer>
+        <a href="mailtomisfat@gmail.com">misfat@gmail.com</a>
+    </footer>
+</body>
+</html>
