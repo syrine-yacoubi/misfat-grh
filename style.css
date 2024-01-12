@@ -40,13 +40,6 @@ body{
     align-content: center;
     justify-items: center;
 }
-nav {
-    border: 2px rgb(147, 147, 180) solide;
-    border-radius: 5px;
-    align-items: center;
-    position: relative;
-
-}
 a{
     background-color: white(147, 147, 180);
     color: orangered;
@@ -100,8 +93,8 @@ label{
     font-family: 'Times New Roman', Times, serif;
 }
 input{
-    background-color: rgb(201, 201, 216);
-    border: 5px midnightblue;
+    background-color: rgb(255, 255, 255);
+    border: 5px rgb(0, 0, 0);
     border-radius: 5px;
 }
 input:required {
@@ -116,11 +109,11 @@ button{
 }
 button:hover{
     color:  rgb(201, 201, 216);
-    background-color: midnightblue;
+    background-color: rgb(226, 226, 250);
 }
 input:hover{
-    color:  rgb(201, 201, 216);
-    background-color: midnightblue;
+    color:  rgb(122, 122, 189);
+    background-color: rgb(180, 180, 219);
     border: 2px solid rgb(201, 201, 216);
     border-radius: 5px;
 }
